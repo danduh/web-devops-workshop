@@ -3,11 +3,11 @@
   "version": 1,
   "newProjectRoot": "",
   "projects": {
-    "web-devops-workshop": {
-      "root": "apps/web-devops-workshop/",
-      "sourceRoot": "apps/web-devops-workshop/src",
+    "art-catalogue": {
+      "root": "apps/art-catalogue/",
+      "sourceRoot": "apps/art-catalogue/src",
       "projectType": "application",
-      "prefix": "web-devops-workshop",
+      "prefix": "art-catalogue",
       "schematics": {
         "@nrwl/schematics:component": {
           "style": "scss"
@@ -17,16 +17,16 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/apps/web-devops-workshop",
-            "index": "apps/web-devops-workshop/src/index.html",
-            "main": "apps/web-devops-workshop/src/main.ts",
-            "polyfills": "apps/web-devops-workshop/src/polyfills.ts",
-            "tsConfig": "apps/web-devops-workshop/tsconfig.app.json",
+            "outputPath": "dist/apps/art-catalogue",
+            "index": "apps/art-catalogue/src/index.html",
+            "main": "apps/art-catalogue/src/main.ts",
+            "polyfills": "apps/art-catalogue/src/polyfills.ts",
+            "tsConfig": "apps/art-catalogue/tsconfig.app.json",
             "assets": [
-              "apps/web-devops-workshop/src/favicon.ico",
-              "apps/web-devops-workshop/src/assets"
+              "apps/art-catalogue/src/favicon.ico",
+              "apps/art-catalogue/src/assets"
             ],
-            "styles": ["apps/web-devops-workshop/src/styles.scss"],
+            "styles": ["apps/art-catalogue/src/styles.scss"],
             "scripts": [],
             "es5BrowserSupport": true
           },
@@ -34,8 +34,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/web-devops-workshop/src/environments/environment.ts",
-                  "with": "apps/web-devops-workshop/src/environments/environment.prod.ts"
+                  "replace": "apps/art-catalogue/src/environments/environment.ts",
+                  "with": "apps/art-catalogue/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -60,62 +60,65 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "web-devops-workshop:build"
+            "browserTarget": "art-catalogue:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "web-devops-workshop:build:production"
+              "browserTarget": "art-catalogue:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "web-devops-workshop:build"
+            "browserTarget": "art-catalogue:build"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "apps/web-devops-workshop/tsconfig.app.json",
-              "apps/web-devops-workshop/tsconfig.spec.json"
+              "apps/art-catalogue/tsconfig.app.json",
+              "apps/art-catalogue/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
         },
         "test": {
-          "builder": "@nrwl/builders:jest",
+          "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "jestConfig": "apps/web-devops-workshop/jest.config.js",
-            "tsConfig": "apps/web-devops-workshop/tsconfig.spec.json",
-            "setupFile": "apps/web-devops-workshop/src/test-setup.ts"
+            "main": "apps/art-catalogue/src/test.ts",
+            "tsConfig": "apps/art-catalogue/tsconfig.spec.json",
+            "karmaConfig": "apps/art-catalogue/karma.conf.js",
+            "polyfills": "apps/art-catalogue/src/polyfills.ts",
+            "styles": [],
+            "scripts": [],
+            "assets": []
           }
         }
       }
     },
-    "web-devops-workshop-e2e": {
-      "root": "apps/web-devops-workshop-e2e",
+    "art-catalogue-e2e": {
+      "root": "apps/art-catalogue-e2e",
       "projectType": "application",
       "prefix": "",
       "architect": {
         "e2e": {
-          "builder": "@nrwl/builders:cypress",
+          "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "cypressConfig": "apps/web-devops-workshop-e2e/cypress.json",
-            "tsConfig": "apps/web-devops-workshop-e2e/tsconfig.e2e.json",
-            "devServerTarget": "web-devops-workshop:serve"
+            "protractorConfig": "apps/art-catalogue-e2e/protractor.conf.js",
+            "devServerTarget": "art-catalogue:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "web-devops-workshop:serve:production"
+              "devServerTarget": "art-catalogue:serve:production"
             }
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": "apps/web-devops-workshop-e2e/tsconfig.e2e.json",
+            "tsConfig": "apps/art-catalogue-e2e/tsconfig.e2e.json",
             "exclude": ["**/node_modules/**"]
           }
         }
@@ -127,7 +130,7 @@
       "typescriptMismatch": false,
       "versionMismatch": false
     },
-    "defaultCollection": "@nrwl/schematics"
+    "defaultCollection": "@nrwl/angular"
   },
   "schematics": {
     "@nrwl/schematics:application": {
@@ -138,5 +141,5 @@
       "style": "scss"
     }
   },
-  "defaultProject": "web-devops-workshop"
+  "defaultProject": "art-catalogue"
 }

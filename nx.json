@@ -8,10 +8,10 @@
     "nx.json": "*"
   },
   "projects": {
-    "web-devops-workshop": {
+    "art-catalogue": {
       "tags": []
     },
-    "web-devops-workshop-e2e": {
+    "art-catalogue-e2e": {
       "tags": []
     }
   }
