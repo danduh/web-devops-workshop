@@ -13,6 +13,12 @@
     },
     "art-catalogue-e2e": {
       "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    },
+    "decorators": {
+      "tags": []
     }
   }
 }

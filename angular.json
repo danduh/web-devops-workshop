@@ -26,7 +26,10 @@
               "apps/art-catalogue/src/favicon.ico",
               "apps/art-catalogue/src/assets"
             ],
-            "styles": ["apps/art-catalogue/src/styles.scss"],
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "apps/art-catalogue/src/styles.scss"
+            ],
             "scripts": [],
             "es5BrowserSupport": true
           },
@@ -91,7 +94,9 @@
             "tsConfig": "apps/art-catalogue/tsconfig.spec.json",
             "karmaConfig": "apps/art-catalogue/karma.conf.js",
             "polyfills": "apps/art-catalogue/src/polyfills.ts",
-            "styles": [],
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+            ],
             "scripts": [],
             "assets": []
           }
@@ -121,6 +126,68 @@
             "tsConfig": "apps/art-catalogue-e2e/tsconfig.e2e.json",
             "exclude": ["**/node_modules/**"]
           }
+        }
+      }
+    },
+    "api-interfaces": {
+      "projectType": "library",
+      "root": "libs/api-interfaces",
+      "sourceRoot": "libs/api-interfaces/src",
+      "prefix": "web-devops-workshop",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/api-interfaces/tsconfig.lib.json",
+              "libs/api-interfaces/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**"]
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/api-interfaces/src/test.ts",
+            "tsConfig": "libs/api-interfaces/tsconfig.spec.json",
+            "karmaConfig": "libs/api-interfaces/karma.conf.js"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "styleext": "scss"
+        }
+      }
+    },
+    "decorators": {
+      "projectType": "library",
+      "root": "libs/decorators",
+      "sourceRoot": "libs/decorators/src",
+      "prefix": "web-devops-workshop",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/decorators/tsconfig.lib.json",
+              "libs/decorators/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**"]
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/decorators/src/test.ts",
+            "tsConfig": "libs/decorators/tsconfig.spec.json",
+            "karmaConfig": "libs/decorators/karma.conf.js"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "styleext": "scss"
         }
       }
     }
