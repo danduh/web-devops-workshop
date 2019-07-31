@@ -19,6 +19,9 @@
     },
     "decorators": {
       "tags": []
+    },
+    "art-api": {
+      "tags": []
     }
   }
 }
