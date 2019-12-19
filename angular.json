@@ -85,7 +85,8 @@
               "apps/art-catalogue/tsconfig.spec.json"
             ],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "!apps/art-catalogue/**"
             ]
           }
         },
@@ -127,7 +128,8 @@
           "options": {
             "tsConfig": "apps/art-catalogue-e2e/tsconfig.e2e.json",
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "!apps/art-catalogue-e2e/**"
             ]
           }
         }
@@ -147,7 +149,8 @@
               "libs/api-interfaces/tsconfig.spec.json"
             ],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "!libs/api-interfaces/**"
             ]
           }
         },
@@ -180,7 +183,8 @@
               "libs/decorators/tsconfig.spec.json"
             ],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "!libs/decorators/**"
             ]
           }
         },
@@ -244,7 +248,8 @@
               "apps/art-api/tsconfig.spec.json"
             ],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "!apps/art-api/**"
             ]
           }
         },
