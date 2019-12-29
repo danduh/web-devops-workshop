@@ -16,7 +16,7 @@ export class AuthService {
         return this.afAuth.user;
     }
 
-    @timer()
+    // @timer()
     login(email, password) {
         return from(this.afAuth
             .auth

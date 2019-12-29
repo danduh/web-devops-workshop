@@ -7,6 +7,11 @@
       "web-devops-workshop",
       "camelCase"
     ],
-    "component-selector": [true, "element", "web-devops-workshop", "kebab-case"]
+    "component-selector": [
+      true,
+      "element",
+      "web-devops-workshop",
+      "kebab-case"
+    ]
   }
 }
