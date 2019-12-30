@@ -1,9 +1,11 @@
 FROM node:10
 
+WORKDIR apps
+
 COPY package.json .
 
 RUN npm i
 
-COPY src public
+COPY src .
 
-CMD node public/server.js
+CMD node server.js
