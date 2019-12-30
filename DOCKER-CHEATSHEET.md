@@ -1,4 +1,6 @@
 #Docker Cheat Sheet
+
+
 ### Docker Help Functions
 | *Command*                 | *Description*                             |
 |---------------------------|-------------------------------------------|
@@ -23,5 +25,5 @@ docker build -t <IMAGE_NAME>:<TAG_NAME> <PATH_TO_CONTEXT>
 
 ### Run Image
 ```sh
-docker build -t <IMAGE_NAME>:<TAG_NAME> <PATH_TO_CONTEXT>
+docker run -it -d -p --rm <HOST_PORT>:<CONTAINER_PORT> <IMAGE_NAME>:<TAG_NAME>
 ```
