@@ -2,10 +2,8 @@ FROM node:10
 
 WORKDIR apps
 
-COPY package.json .
+COPY . .
 
 RUN npm i
 
-COPY src .
-
-CMD node server.js
+CMD node src/server.js
