@@ -1,14 +1,16 @@
 FROM node:12
 
-WORKDIR apps
+RUN apt-get update; \
+    apt-get install nginx -y
+
+WORKDIR myapp
 
 COPY package.json .
 
-RUN npm i
+RUN npm i --no-audit
 
 COPY . .
 
 RUN npm run build
-
 
 
