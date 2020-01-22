@@ -1,15 +1,11 @@
-FROM nginx
+FROM node:12
 
-RUN apt-get update; \
-    apt-get install curl nano -y
+COPY package.json .
 
-RUN mkdir -p /run/nginx
-COPY nginx.conf /etc/nginx/
+RUN npm i
 
-COPY dist/apps/art-catalogue /usr/share/nginx/html
+COPY . .
 
-COPY nginx.conf /etc/nginx/nginx.conf
+RUN npm build
 
-EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
