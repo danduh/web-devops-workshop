@@ -1,9 +1,6 @@
-FROM node:12
+FROM node:10 AS builder
 
-RUN apt-get update; \
-    apt-get install nginx -y
-
-WORKDIR myapp
+WORKDIR /myapp
 
 COPY package.json .
 
@@ -13,4 +10,16 @@ COPY . .
 
 RUN npm run build
 
+####################
+FROM nginx
 
+RUN mkdir -p /run/nginx
+COPY nginx.conf /etc/nginx/
+
+COPY --from=builder /myapp/dist/apps/art-catalogue /usr/share/nginx/html
+
+COPY --from=builder /myapp/nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
