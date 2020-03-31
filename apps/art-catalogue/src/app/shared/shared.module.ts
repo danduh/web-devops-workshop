@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 const MATERIAL = [
     MatInputModule,
@@ -17,6 +18,7 @@ const SHARED_MODULES = [
 @NgModule({
     declarations: [],
     imports: [
+        HttpClientModule,
         CommonModule,
         MATERIAL,
         SHARED_MODULES

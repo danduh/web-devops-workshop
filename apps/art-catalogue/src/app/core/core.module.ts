@@ -9,14 +9,14 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     declarations: [],
     imports: [
         CommonModule,
-        AngularFireModule.initializeApp(environment.firebase),
-        AngularFirestoreModule,
-        AngularFireAuthModule
+        // AngularFireModule.initializeApp(environment.firebase),
+        // AngularFirestoreModule,
+        // AngularFireAuthModule
     ],
     exports: [
-        AngularFireModule,
-        AngularFirestoreModule,
-        AngularFireAuthModule
+        // AngularFireModule,
+        // AngularFirestoreModule,
+        // AngularFireAuthModule
     ]
 })
 export class CoreModule {

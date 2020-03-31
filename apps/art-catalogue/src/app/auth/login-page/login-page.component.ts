@@ -2,6 +2,7 @@ import { Component, OnInit, Pipe, PipeTransform } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { AuthService } from '../services/auth.service';
 import 'reflect-metadata';
+import { environment } from '@art-catalogue/env/environment';
 
 @Component({
     selector: 'art-catalogue-login-page',
@@ -10,6 +11,7 @@ import 'reflect-metadata';
 })
 export class LoginPageComponent implements OnInit {
     public authForm: FormGroup;
+    public env = environment.mainTitle;
 
     constructor(private fb: FormBuilder,
                 private authService: AuthService) {
@@ -20,8 +22,6 @@ export class LoginPageComponent implements OnInit {
             email: [],
             password: []
         });
-        this.authService.getUser()
-            .subscribe((resp) => console.log(resp));
     }
 
     submit() {
