@@ -1,9 +1,6 @@
-FROM node:12 AS builder
+FROM node:10 AS builder
 
-RUN apt-get update; \
-    apt-get install nginx -y
-
-WORKDIR myapp
+WORKDIR /myapp
 
 COPY package.json .
 
@@ -12,7 +9,8 @@ RUN npm i --no-audit
 COPY . .
 
 RUN npm run build
-####################################
+
+####################
 FROM nginx
 
 RUN mkdir -p /run/nginx
