@@ -8,7 +8,8 @@ RUN npm i --no-audit
 
 COPY . .
 
-RUN npm run build
+ARG CONFIG=develop
+RUN npm run build -- --configuration=$CONFIG
 
 ####################
 FROM nginx

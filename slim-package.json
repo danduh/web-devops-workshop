@@ -1,0 +1,13 @@
+{
+    "name": "web-devops-workshop",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "stop": "scc"
+    },
+    "private": true,
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
