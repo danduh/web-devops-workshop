@@ -42,6 +42,7 @@
         "@angular/router": "^9.1.0",
         "@jest/reporters": "^25.2.4",
         "@ngrx/store-devtools": "~8.6.0",
+        "@nrwl/node": "^9.1.4",
         "core-js": "^3.6.4",
         "firebase": "^7.13.1",
         "jest": "^25.2.4",

@@ -6,6 +6,4 @@ COPY package.json .
 
 RUN npm i --no-audit
 
-EXPOSE 4200
-
 CMD npm test
