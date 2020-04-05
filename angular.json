@@ -112,7 +112,7 @@
                 "test": {
                     "builder": "@angular-devkit/build-angular:karma",
                     "options": {
-                        "main": "apps/art-catalogue/src/test.ts",
+                        "main": "apps/art-catalogue/src/karma-test.ts",
                         "tsConfig": "apps/art-catalogue/tsconfig.spec.json",
                         "karmaConfig": "apps/art-catalogue/karma.conf.js",
                         "polyfills": "apps/art-catalogue/src/polyfills.ts",
