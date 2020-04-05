@@ -43,7 +43,9 @@
         "@jest/reporters": "^25.2.4",
         "@ngrx/store-devtools": "~8.6.0",
         "@nrwl/node": "^9.1.4",
+        "chalk": "^4.0.0",
         "core-js": "^3.6.4",
+        "dot-prop": "^5.2.0",
         "firebase": "^7.13.1",
         "jest": "^25.2.4",
         "jest-html-reporter": "^3.0.0",
@@ -52,6 +54,7 @@
         "reflect-metadata": "^0.1.13",
         "rxjs": "7.0.0-alpha.0",
         "tslib": "^1.11.1",
+        "yargs": "^15.3.1",
         "zone.js": "^0.10.3"
     },
     "devDependencies": {

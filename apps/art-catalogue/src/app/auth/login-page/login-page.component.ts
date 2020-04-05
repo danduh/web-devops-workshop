@@ -15,6 +15,7 @@ export class LoginPageComponent implements OnInit {
 
     constructor(private fb: FormBuilder,
                 private authService: AuthService) {
+        console.log(environment)
     }
 
     ngOnInit() {
