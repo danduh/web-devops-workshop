@@ -5,12 +5,16 @@ import { DblService } from './dbl.service';
 
 @Controller('movies')
 export class AppController {
-    constructor(private readonly appService: AppService,
-                private dbService: DblService) {
+    constructor(private dbService: DblService) {
     }
 
     @Get()
     getData() {
+        return this.dbService.getAll('movies');
+    }
+
+    @Get()
+    getDataMovies() {
         return this.dbService.getAll('movies');
     }
 }
