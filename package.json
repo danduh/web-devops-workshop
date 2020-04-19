@@ -5,6 +5,8 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
+        "start:api": "ng serve art-api",
+        "test:api": "ng test art-api",
         "build": "ng build",
         "test": "jest",
         "lint": "./node_modules/.bin/nx workspace-lint && ng lint",
@@ -55,6 +57,7 @@
         "jest-preset-angular": "^8.1.2",
         "karma": "^4.4.1",
         "lowdb": "^1.0.0",
+        "nestjs-redis": "^1.2.7",
         "ngx-custom-decorators": "0.0.0-beta-7",
         "reflect-metadata": "^0.1.13",
         "rxjs": "7.0.0-alpha.0",

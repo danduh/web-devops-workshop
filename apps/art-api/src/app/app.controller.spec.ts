@@ -25,7 +25,6 @@ describe('AppController', () => {
                 }
             ]
         }).compile();
-
         dblService = module.get(DblService);
         appController = module.get<AppController>(AppController);
     });

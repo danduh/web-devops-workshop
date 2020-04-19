@@ -9,12 +9,8 @@ export class AppController {
     }
 
     @Get()
-    getData() {
-        return this.dbService.getAll('movies');
-    }
-
-    @Get()
     getDataMovies() {
+        console.log(process.version);
         return this.dbService.getAll('movies');
     }
 }

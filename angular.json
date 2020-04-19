@@ -275,6 +275,7 @@
                 "test": {
                     "builder": "@nrwl/jest:jest",
                     "options": {
+                        "codeCoverage": true,
                         "jestConfig": "apps/art-api/jest.config.js",
                         "tsConfig": "apps/art-api/tsconfig.spec.json"
                     }
