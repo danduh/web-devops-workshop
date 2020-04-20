@@ -30,6 +30,6 @@ docker run -it -p 3000:3000  -v $PWD/test-results:/art-api/test-results upall np
 ## DataBases
 ### Redis
 ```shell script
-docker run --name art-redis -p 6379:6379 redis
+docker run -p 6379:6379 redis
 ```
 
