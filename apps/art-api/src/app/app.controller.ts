@@ -1,16 +1,15 @@
-import { Controller, Get } from '@nestjs/common';
-
-import { AppService } from './app.service';
+import { Controller, Get, Header } from '@nestjs/common';
 import { DblService } from './dbl.service';
 
 @Controller('movies')
 export class AppController {
-    constructor(private dbService: DblService) {
+    constructor(private dbService: DblService,
+    ) {
     }
 
     @Get()
+    @Header('content-type', 'application/json')
     getDataMovies() {
-        console.log(process.version);
         return this.dbService.getAll('movies');
     }
 }

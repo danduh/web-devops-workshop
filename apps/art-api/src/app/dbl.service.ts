@@ -1,19 +1,35 @@
 import { Injectable } from '@nestjs/common';
 import * as low from 'lowdb';
 import * as FileSync from 'lowdb/adapters/FileSync';
+import { ArtRedisService } from './redis.service';
+import * as Redis from 'ioredis';
 
-//apps/art-api/src
 const adapter = new FileSync('apps/art-api/src/data/dbs/movies.json');
 
 @Injectable()
 export class DblService {
     db = low(adapter);
+    cacheClient: Redis.Redis;
 
-    constructor() {
-        console.log();
+    constructor(private cache: ArtRedisService) {
+        this.initCache();
     }
 
-    getAll(collection) {
-        return this.db.get(collection).value();
+    async initCache() {
+        this.cacheClient = await this.cache.root();
+    }
+
+    async getAll(collection) {
+        const isExists = await this.cacheClient.exists(collection);
+
+        if (isExists) {
+            console.log('Return from cache');
+            return await this.cacheClient.get(collection);
+        }
+
+        console.log('Return from DB');
+        const dbData = this.db.get(collection).value();
+        await this.cacheClient.set(collection, JSON.stringify(dbData));
+        return dbData;
     }
 }
