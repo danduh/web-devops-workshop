@@ -1,0 +1,5 @@
+{
+    "experimentalComponentTesting": true,
+    "componentFolder": "apps/angular-cypress-unit/src",
+    "testFiles": "**/*cy-spec.*"
+}

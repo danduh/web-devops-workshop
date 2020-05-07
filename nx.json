@@ -22,6 +22,15 @@
     },
     "art-api": {
       "tags": []
+    },
+    "angular-cypress-unit": {
+      "tags": []
+    },
+    "angular-cypress-unit-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "angular-cypress-unit"
+      ]
     }
   }
 }
