@@ -20,7 +20,8 @@ export class AuthService {
     }
 
     login(email, password) {
-        return this.http.post(this.authUrl, { email, password });
+        const url = `${this.authUrl}/auth/login`
+        return this.http.post(url, { email, password });
     }
 
 

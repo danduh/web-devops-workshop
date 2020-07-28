@@ -3,7 +3,7 @@ import { DblService } from './dbl.service';
 
 @Controller('movies')
 export class AppController {
-    constructor(private dbService: DblService,
+    constructor(private dbService: DblService
     ) {
     }
 

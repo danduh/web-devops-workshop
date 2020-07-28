@@ -3,12 +3,22 @@ import * as low from 'lowdb';
 import * as FileSync from 'lowdb/adapters/FileSync';
 import { ArtRedisService } from './redis.service';
 import * as Redis from 'ioredis';
+import { UserCredentials } from '../interfaces/user';
 
-const adapter = new FileSync('apps/art-api/src/data/dbs/movies.json');
+const movies = new FileSync('apps/art-api/src/data/dbs/movies.json');
+const users = new FileSync('apps/art-api/src/data/dbs/users.json');
 
 @Injectable()
 export class DblService {
-    db = low(adapter);
+    db = {
+        users() {
+            return low(users).get('users');
+        },
+        movies() {
+            return low(movies).get('movies');
+        }
+    };
+
     cacheClient: Redis.Redis;
 
     constructor(private cache: ArtRedisService) {
@@ -28,8 +38,16 @@ export class DblService {
         }
 
         console.log('Return from DB');
-        const dbData = this.db.get(collection).value();
+        const dbData = this.db.movies().value();
         await this.cacheClient.set(collection, JSON.stringify(dbData));
         return dbData;
+    }
+
+    authenticate(credentials: UserCredentials) {
+        const user = (this.db.users() as any).find({ userName: credentials.userName }).value();
+        if (user)
+            return user;
+        else
+            return { error: 'User Not Found' };
     }
 }

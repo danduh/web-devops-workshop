@@ -1,0 +1,13 @@
+{
+    "users": [
+        {
+            "id": "111",
+            "email": "daniel.caltura@kaltura.com",
+            "userName": "danduh",
+            "firstName": "Daniel",
+            "lastName": "Ostrovsky",
+            "twitter": "@danduh81",
+            "password": "qwert"
+        }
+    ]
+}
