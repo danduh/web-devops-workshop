@@ -1,0 +1,22 @@
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    .card-holder {
+        width: 19vw;
+        padding: 5px;
+        display: flex;
+
+        ::ng-deep .mat-card-title {
+            margin-bottom: 12px;
+            white-space: nowrap;
+            overflow: hidden !important;
+            text-overflow: ellipsis;
+
+        }
+    }
+}
