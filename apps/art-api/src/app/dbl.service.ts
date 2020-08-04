@@ -30,14 +30,14 @@ export class DblService {
     }
 
     async getAll(collection) {
-        const isExists = await this.cacheClient.exists(collection);
-
-        if (isExists) {
-            console.log('Return from cache');
-            return await this.cacheClient.get(collection);
-        }
-
-        console.log('Return from DB');
+        // const isExists = await this.cacheClient.exists(collection);
+        //
+        // if (isExists) {
+        //     console.log('Return from cache');
+        //     return await this.cacheClient.get(collection);
+        // }
+        //
+        // console.log('Return from DB');
         const dbData = this.db.movies().value();
         await this.cacheClient.set(collection, JSON.stringify(dbData));
         return dbData;

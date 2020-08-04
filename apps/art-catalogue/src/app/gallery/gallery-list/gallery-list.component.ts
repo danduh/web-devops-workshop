@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { GalleryService } from '../gallery.service';
+import { Movie, Movies } from '../../interfaces';
 
 @Component({
     selector: 'art-catalogue-gallery-list',
@@ -9,7 +10,7 @@ import { GalleryService } from '../gallery.service';
 })
 export class GalleryListComponent implements OnInit {
 
-    public movies: Observable<any[]>;
+    public movies: Observable<Movies>;
 
     constructor(private galService: GalleryService) {
     }

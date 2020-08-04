@@ -1,466 +1,1437 @@
 {
     "movies": [
         {
-            "id": "5d20e56ad3c319322d9e87cf",
-            "title": "anim reprehenderit in mollit et",
-            "poster": "http://placehold.it/32x32",
-            "year": 1982,
-            "rating": 2,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Marguerite Serrano"
-                },
-                {
-                    "id": 1,
-                    "name": "Selena Noble"
-                },
-                {
-                    "id": 2,
-                    "name": "Cochran Graves"
+                    "id": 169794,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107519,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/36cb2e0322584913a1c937bdecbb7a6b/version/0",
+                    "contentId": "36cb2e0322584913a1c937bdecbb7a6b",
+                    "isDefault": false
                 }
             ],
-            "description": "Eiusmod elit aute nulla aliqua est. Tempor exercitation aliquip exercitation amet culpa. Cupidatat dolore duis ad quis irure et mollit deserunt quis laboris culpa excepteur nulla."
+            "id": 2107519,
+            "type": 1109,
+
+            "description": "MK Ad-Insertion Tests,A collection of twentysomethings try to cope with relationships, loneliness, desire and their individual neuroses.",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "10"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Ben, Affleck"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Risa, Bramon Garcia"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Comedy"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553905,
+            "updateDate": 1594574198,
+            "externalId": "2_MK_AD_19052020_MM",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56a5cbf1de87b9f80e9",
-            "title": "qui proident adipisicing id minim",
-            "poster": "http://placehold.it/32x32",
-            "year": 1934,
-            "rating": 2,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Carver Hunter"
+                    "id": 163724,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107609,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/358078eeddf345f4b1650bcf7593830b/version/0",
+                    "contentId": "358078eeddf345f4b1650bcf7593830b",
+                    "isDefault": false
                 },
                 {
-                    "id": 1,
-                    "name": "Mcconnell Cobb"
-                },
-                {
-                    "id": 2,
-                    "name": "Summer Martinez"
+                    "id": 169807,
+                    "version": "0",
+                    "imageTypeId": 266,
+                    "imageObjectId": 2107609,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/8d67b087b8724141b41b121dab663846/version/0",
+                    "contentId": "8d67b087b8724141b41b121dab663846",
+                    "isDefault": false
                 }
             ],
-            "description": "Adipisicing in minim deserunt exercitation nulla aliquip voluptate nostrud. Reprehenderit eu duis voluptate nulla ipsum anim. Fugiat commodo est ad magna nisi officia aute quis ullamco aliqua irure consequat Lorem minim."
+            "id": 2107609,
+            "type": 1109,
+            "name": "Bad Boys For Life",
+            "description": "The Bad Boys Mike Lowrey and Marcus Burnett are back together for one last ride.",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "16"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Will Smith"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Adil El Arbi"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Action"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553956,
+            "updateDate": 1594574198,
+            "externalId": "Bad Boys For Life",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56a492a38a241fa1cc7",
-            "title": "enim cupidatat mollit Lorem et",
-            "poster": "http://placehold.it/32x32",
-            "year": 1962,
-            "rating": 8,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Rebekah Decker"
-                },
-                {
-                    "id": 1,
-                    "name": "Suzanne Casey"
-                },
-                {
-                    "id": 2,
-                    "name": "Lester Porter"
+                    "id": 163728,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107613,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/126ed1e38f9e4a4993b82f51e1be9d3e/version/0",
+                    "contentId": "126ed1e38f9e4a4993b82f51e1be9d3e",
+                    "isDefault": false
                 }
             ],
-            "description": "Mollit consequat quis ea fugiat enim. Ea consectetur ipsum non nostrud veniam commodo commodo quis aliquip nulla proident. Magna mollit consequat ipsum deserunt velit reprehenderit. Qui excepteur velit officia irure mollit ad velit. Do ex ea magna id velit amet tempor ex mollit proident."
+            "id": 2107613,
+            "type": 1109,
+            "name": "Birds of Prey",
+            "description": "Birds of Prey",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "18"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "abc"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "abc"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Action"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553958,
+            "updateDate": 1594574198,
+            "externalId": "Birds of Prey (And the Fant�",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56a8f7e7f0c9b710acb",
-            "title": "irure elit do ea qui",
-            "poster": "http://placehold.it/32x32",
-            "year": 2007,
-            "rating": 8,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Bush Hyde"
+                    "id": 79919,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 1742063,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/8b3bdf52194d4447ab2fb6908b30c5a8/version/0",
+                    "contentId": "8b3bdf52194d4447ab2fb6908b30c5a8",
+                    "isDefault": false
                 },
                 {
-                    "id": 1,
-                    "name": "Adrienne Tillman"
-                },
-                {
-                    "id": 2,
-                    "name": "Guerra Campbell"
+                    "id": 79920,
+                    "version": "0",
+                    "imageTypeId": 260,
+                    "imageObjectId": 1742063,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/d1043cb74ac04db392778008f4c65fad/version/0",
+                    "contentId": "d1043cb74ac04db392778008f4c65fad",
+                    "isDefault": false
                 }
             ],
-            "description": "Mollit esse adipisicing velit dolor adipisicing est ipsum sit laborum ex do nisi. Dolor qui fugiat quis culpa tempor pariatur ad culpa culpa eiusmod do voluptate non. Minim adipisicing anim anim culpa. Eiusmod eu ea adipisicing reprehenderit proident voluptate est nostrud labore aute incididunt amet voluptate."
+            "id": 1742063,
+            "type": 1109,
+            "name": "Captain Marvel",
+            "description": "Captain Marvel gets caught in the middle of an intergalactic war between two extraterrestrial races.",
+            "metas": {
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1579692180,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Eddie,Murphy"
+                        }
+                    ]
+                },
+
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Daniel Ostrovsky"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1579692180,
+            "endDate": 32472151200,
+            "createDate": 1579685026,
+            "updateDate": 1583248502,
+            "externalId": "9630f177-6c20-b907-32c3-6ee89c84f4be",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56aed9aee94ca99d874",
-            "title": "elit excepteur irure do labore",
-            "poster": "http://placehold.it/32x32",
-            "year": 1983,
-            "rating": 8,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Charmaine Moody"
+                    "id": 169795,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107603,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/e36ec57aca5c4588aa61efff29b0b466/version/0",
+                    "contentId": "e36ec57aca5c4588aa61efff29b0b466",
+                    "isDefault": false
                 },
                 {
-                    "id": 1,
-                    "name": "Trujillo Hickman"
-                },
-                {
-                    "id": 2,
-                    "name": "Vaughn Estrada"
+                    "id": 169796,
+                    "version": "0",
+                    "imageTypeId": 266,
+                    "imageObjectId": 2107603,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/5f3323db64ef4e8985697d2f91852cfd/version/0",
+                    "contentId": "5f3323db64ef4e8985697d2f91852cfd",
+                    "isDefault": false
                 }
             ],
-            "description": "Officia Lorem quis amet culpa anim proident elit tempor aute id sint officia culpa. Laboris dolore excepteur do nulla ad mollit labore occaecat ad duis dolore labore cillum. Lorem sunt fugiat Lorem commodo eiusmod ipsum pariatur aliquip irure occaecat exercitation excepteur nisi pariatur. Sunt cillum quis ut laborum est qui irure dolore ea reprehenderit exercitation. Commodo officia labore reprehenderit adipisicing minim est dolor exercitation anim ut consequat veniam do excepteur."
+            "id": 2107603,
+            "type": 1109,
+            "name": "Doctor Dolittle",
+            "description": "A successful physician and devoted family man, John Dolittle seems to have the world by the tail, until a long suppressed talent he possessed as a child, the ability to communicate with animals is suddenly reawakened with a vengeance! Now every creature within squawking distance wants the good doctor's advice, unleashing an outrageous chain of events that turns his world upside down! Out of the night that covers me,Black as the pit from pole to pole,I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud.Under the bludgeonings of chance My head is bloody, but unbowed.Beyond this place of wrath and tears Looms but the Horror of the shade,And yet the menace of the years Finds, and shall find me, unafraid.It matters not how strait the gate, How charged with punishments the scroll,I am the master of my fate: I am the captain of my soul",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 2000,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "4"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Eddie,Murphy"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Betty,Thomas"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Comedy"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553953,
+            "updateDate": 1594983237,
+            "externalId": "1998-19-30501",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56ae32577b10c4e200b",
-            "title": "laboris mollit reprehe",
-            "poster": "http://placehold.it/32x32",
-            "year": 2015,
-            "rating": 5,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Regina Jacobson"
+                    "id": 169798,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107536,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/13240344d62341e2bb0602797b97d616/version/0",
+                    "contentId": "13240344d62341e2bb0602797b97d616",
+                    "isDefault": false
                 },
                 {
-                    "id": 1,
-                    "name": "Moon Delgado"
-                },
-                {
-                    "id": 2,
-                    "name": "Frost Hendrix"
+                    "id": 169797,
+                    "version": "0",
+                    "imageTypeId": 266,
+                    "imageObjectId": 2107536,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/ca1f5d00f5cf4a02a2cc5f23907e49b2/version/0",
+                    "contentId": "ca1f5d00f5cf4a02a2cc5f23907e49b2",
+                    "isDefault": false
                 }
             ],
-            "description": "Ad do sint adipisicing nulla eu exercitation cillum nulla fugiat. Consectetur nulla consectetur nulla eu duis. Veniam commodo velit id magna cillum ipsum reprehenderit ea duis laborum voluptate consectetur."
+            "id": 2107536,
+            "type": 1109,
+            "name": "Dragon Ball Z: Broly – Second Coming",
+            "description": "A Saiyan Space pod crash-lands on Earth out of which a wounded Saiyan crawls: Broly, the Legendary Super Saiyan. The wounded Broly shouts out in frustration and turns into normal form. The place soon freezes, trapping him in it and he falls into a coma. Out of the night that covers me,Black as the pit from pole to pole,I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud.Under the bludgeonings of chance My head is bloody, but unbowed.Beyond this place of wrath and tears Looms but the Horror of the shade,And yet the menace of the years Finds, and shall find me, unafraid.It matters not how strait the gate, How charged with punishments the scroll,I am the master of my fate: I am the captain of my soul",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "10"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Masako,Nozawa"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Shigeyasu,Yamauchi"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Action"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553915,
+            "updateDate": 1594574198,
+            "externalId": "1994-7-44251",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56aa19c2d6c22276454",
-            "title": "et excepteur culpa ex fugiat",
-            "poster": "http://placehold.it/32x32",
-            "year": 1943,
-            "rating": 4,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Hamilton Ball"
-                },
-                {
-                    "id": 1,
-                    "name": "Key Fields"
-                },
-                {
-                    "id": 2,
-                    "name": "Winnie Mitchell"
+                    "id": 169800,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107582,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/5d525aedf8044a09b30be14830980e0c/version/0",
+                    "contentId": "5d525aedf8044a09b30be14830980e0c",
+                    "isDefault": false
                 }
             ],
-            "description": "Ipsum laboris mollit esse labore consectetur minim qui cupidatat labore. Laboris velit aliquip exercitation quis labore aute adipisicing. Aliquip eu deserunt velit sunt Lorem ex adipisicing sit exercitation duis amet cupidatat ipsum. Eu laborum sit qui consequat. Nulla incididunt amet amet amet adipisicing ad minim amet sit."
+            "id": 2107582,
+            "type": 1109,
+            "name": "Ford vs Ferrari",
+            "description": "velocix, D2P, 2m32s, American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966. Out of the night that covers me,Black as the pit from pole to pole,I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud.Under the bludgeonings of chance My head is bloody, but unbowed.Beyond this place of wrath and tears Looms but the Horror of the shade,And yet the menace of the years Finds, and shall find me, unafraid.It matters not how strait the gate, How charged with punishments the scroll,I am the master of my fate: I am the captain of my soul",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "4"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Christian,Bale"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "James,Mangold"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Drama"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553943,
+            "updateDate": 1594574198,
+            "externalId": "2019-201-35972411",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56a17b58762a1844ee0",
-            "title": "ut ea duis est adipisicing",
-            "poster": "http://placehold.it/32x32",
-            "year": 1989,
-            "rating": 9,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Stanton Mcpherson"
-                },
-                {
-                    "id": 1,
-                    "name": "Sasha Mcfadden"
-                },
-                {
-                    "id": 2,
-                    "name": "Eileen Ray"
+                    "id": 169802,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107624,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/f1451ee3ec66452ea56dbf6bc89e1568/version/0",
+                    "contentId": "f1451ee3ec66452ea56dbf6bc89e1568",
+                    "isDefault": false
                 }
             ],
-            "description": "Voluptate occaecat cupidatat deserunt commodo in duis id labore esse elit. Et culpa cillum Lorem sint sint minim. Nisi non ea quis laboris pariatur elit esse laborum. Enim consectetur consectetur anim dolore velit veniam amet enim tempor aliquip. Aute proident aute sint velit et esse laborum dolor nulla non cillum velit et. Est adipisicing duis id consectetur enim. Consequat duis laborum magna fugiat duis duis."
+            "id": 2107624,
+            "type": 1109,
+            "name": "Frozen II",
+            "description": "Frozen II",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "4"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "abc"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "abc"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Adventure"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553964,
+            "updateDate": 1594574198,
+            "externalId": "Frozen II",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56a1f7cd0a9f0692e20",
-            "title": "nisi aliqua et qui Lorem",
-            "poster": "http://placehold.it/32x32",
-            "year": 1964,
-            "rating": 9,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Fulton Hood"
-                },
-                {
-                    "id": 1,
-                    "name": "Kelsey Underwood"
-                },
-                {
-                    "id": 2,
-                    "name": "Mendez Hale"
+                    "id": 169804,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107591,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/039c9bb663d94fc288f91a633072bda4/version/0",
+                    "contentId": "039c9bb663d94fc288f91a633072bda4",
+                    "isDefault": false
                 }
             ],
-            "description": "Culpa non aliquip proident ullamco laborum aliquip et amet consectetur ut quis ut aute aute. Aliqua reprehenderit tempor labore minim tempor veniam ea sit ea culpa. Lorem laboris nulla exercitation nisi ipsum. Non id non veniam dolor ex consectetur velit nisi duis duis sit et nulla. Quis tempor labore cupidatat nostrud exercitation mollit incididunt proident deserunt incididunt consequat sunt sit. Eiusmod commodo id reprehenderit amet aute id elit reprehenderit aliquip irure."
+            "id": 2107591,
+            "type": 1109,
+            "name": "From Dusk Till Dawn",
+            "description": "Seth Gecko and his younger brother Richard are on the run after a bloody bank robbery in Texas. They escape across the border into Mexico and will be home-free the next morning, when they pay off the local kingpin. They just have to survive 'From Heaven Till Dark' at the rendezvous point, which turns out to be a Hell of a strip joint. Out of the night that covers me,Black as the pit from pole to pole,I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud.Under the bludgeonings of chance My head is bloody, but unbowed.Beyond this place of wrath and tears Looms but the Horror of the shade,And yet the menace of the years Finds, and shall find me, unafraid.It matters not how strait the gate, How charged with punishments the scroll,I am the master of my fate: I am the captain of my soul",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
+                },
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
+                }
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "15"
+                        }
+                    ]
+                },
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "George,Clooney"
+                        }
+                    ]
+                },
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Robert,Rodriguez"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "movie"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
+                }
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553948,
+            "updateDate": 1594983671,
+            "externalId": "22id_mm_nokia_28081996-5-755",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         },
         {
-            "id": "5d20e56a319a70daf4a5b8b8",
-            "title": "nulla veniam cillum voluptate elit",
-            "poster": "http://placehold.it/32x32",
-            "year": 1965,
-            "rating": 8,
-            "cast": [
+            "multilingualName": [],
+            "multilingualDescription": [],
+            "images": [
                 {
-                    "id": 0,
-                    "name": "Chasity Kent"
+                    "id": 169805,
+                    "version": "0",
+                    "imageTypeId": 266,
+                    "imageObjectId": 2107522,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/99ff5d8384bb4d578e1283f77a8fb3eb/version/0",
+                    "contentId": "99ff5d8384bb4d578e1283f77a8fb3eb",
+                    "isDefault": false
                 },
                 {
-                    "id": 1,
-                    "name": "Theresa Crawford"
-                },
-                {
-                    "id": 2,
-                    "name": "Mercedes Barnes"
+                    "id": 169806,
+                    "version": "0",
+                    "imageTypeId": 258,
+                    "imageObjectId": 2107522,
+                    "imageObjectType": "MEDIA_ASSET",
+                    "status": "READY",
+                    "url": "https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3200/entry_id/2c79915846964feaad9b6c551e5024c6/version/0",
+                    "contentId": "2c79915846964feaad9b6c551e5024c6",
+                    "isDefault": false
                 }
             ],
-            "description": "Veniam sunt excepteur anim eiusmod aute proident officia aliquip aliqua eu nostrud veniam qui. Consectetur adipisicing laborum laboris dolor dolore enim culpa in. Aliquip culpa occaecat qui aliquip tempor consectetur sit in. Nulla sit ipsum consequat dolore ea cillum anim elit incididunt mollit sit et amet. Deserunt eiusmod aute et Lorem incididunt amet velit in qui culpa consequat aliquip esse."
-        },
-        {
-            "id": "5d20e56afbb5a2d2e0c2f9af",
-            "title": "est ex dolore voluptate proident",
-            "poster": "http://placehold.it/32x32",
-            "year": 2008,
-            "rating": 5,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Margaret Slater"
+            "id": 2107522,
+            "type": 1109,
+            "name": "Rebuilding Paradise",
+            "description": "The community of Paradise, California, a town in the Sierra Nevada foothills, attempts to rebuild after devastating wildfires in 2018.",
+            "metas": {
+                "Year": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1987,
+                    "objectType": "KalturaDoubleValue"
                 },
-                {
-                    "id": 1,
-                    "name": "Farmer Carr"
+                "Adult": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
                 },
-                {
-                    "id": 2,
-                    "name": "Rios Gordon"
+                "Downloadable": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": false,
+                    "objectType": "KalturaBooleanValue"
+                },
+                "CatalogStartDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 1594329960,
+                    "objectType": "KalturaLongValue"
+                },
+                "PlaybackEndDateTime": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "value": 32472151200,
+                    "objectType": "KalturaLongValue"
                 }
-            ],
-            "description": "Magna excepteur eiusmod incididunt dolore officia. Mollit qui dolore quis in irure do aliqua deserunt do est nostrud occaecat. Voluptate excepteur ut aliqua ipsum veniam. Elit mollit minim eu nisi amet duis occaecat amet consequat aute dolore. Ad quis cupidatat mollit aliqua magna. Deserunt aliqua anim dolore laborum est consectetur tempor pariatur enim."
-        },
-        {
-            "id": "5d20e56af0a6a024464f3d06",
-            "title": "eiusmod sint velit officia aute",
-            "poster": "http://placehold.it/32x32",
-            "year": 1966,
-            "rating": 3,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Leblanc Frost"
+            },
+            "tags": {
+                "ParentalRating": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "10"
+                        }
+                    ]
                 },
-                {
-                    "id": 1,
-                    "name": "Carol Dickerson"
+                "Actors": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Victoria, Justice"
+                        }
+                    ]
                 },
-                {
-                    "id": 2,
-                    "name": "Claudette Bradley"
+                "Director": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Josh, Schwartz"
+                        }
+                    ]
+                },
+                "Genre": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Adventure"
+                        }
+                    ]
+                },
+                "Studio": {
+                    "_allowedEmptyArray": [],
+                    "_dependentProperties": {},
+                    "relatedObjects": [],
+                    "objects": [
+                        {
+                            "_allowedEmptyArray": [],
+                            "_dependentProperties": {},
+                            "relatedObjects": [],
+                            "multilingualValue": [],
+                            "value": "Disney"
+                        }
+                    ]
                 }
-            ],
-            "description": "Mollit velit duis id ut nostrud enim. Dolore id et ex laboris dolore proident aliqua eu ex. Irure deserunt consectetur nulla est. Ut cupidatat laboris do laboris consectetur nostrud labore exercitation do labore est."
-        },
-        {
-            "id": "5d20e56a53d6c99823d5d508",
-            "title": "ipsum pariatur nisi cillum non",
-            "poster": "http://placehold.it/32x32",
-            "year": 1998,
-            "rating": 2,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Maritza Rodriquez"
-                },
-                {
-                    "id": 1,
-                    "name": "Buckley Morgan"
-                },
-                {
-                    "id": 2,
-                    "name": "Edith Michael"
-                }
-            ],
-            "description": "Dolor duis Lorem veniam labore Lorem commodo ad fugiat irure aute. Occaecat labore tempor non duis mollit officia qui nulla dolore ullamco ut labore amet excepteur. Aute consectetur mollit ea anim anim sunt tempor. Sunt amet voluptate dolor aute nostrud aliquip do laboris magna pariatur cillum eiusmod."
-        },
-        {
-            "id": "5d20e56ad634d30e3e3ce6e9",
-            "title": "sit laboris ut quis consectetur",
-            "poster": "http://placehold.it/32x32",
-            "year": 1962,
-            "rating": 5,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Blanchard Cooley"
-                },
-                {
-                    "id": 1,
-                    "name": "Beryl Henry"
-                },
-                {
-                    "id": 2,
-                    "name": "Sherman Gilmore"
-                }
-            ],
-            "description": "Anim cillum ullamco dolor tempor ea dolor. Voluptate ea sunt exercitation adipisicing exercitation tempor sunt minim cupidatat qui ex eiusmod. Do enim culpa incididunt quis elit esse tempor non duis magna. Sit eu voluptate officia aute nostrud et. Duis nulla amet cillum nostrud minim eiusmod consectetur adipisicing commodo."
-        },
-        {
-            "id": "5d20e56a6bf6b250f61e54d5",
-            "title": "officia aliqua ipsum deserunt sint",
-            "poster": "http://placehold.it/32x32",
-            "year": 1974,
-            "rating": 8,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Carlson Guerra"
-                },
-                {
-                    "id": 1,
-                    "name": "Newman Taylor"
-                },
-                {
-                    "id": 2,
-                    "name": "Berg Farrell"
-                }
-            ],
-            "description": "Non incididunt non irure enim labore adipisicing in amet exercitation. Consectetur dolor occaecat sit mollit consequat adipisicing laboris exercitation labore. Est ex nulla eiusmod est aliquip. Incididunt velit aliquip occaecat aliqua reprehenderit ullamco elit aliquip laborum enim dolore mollit reprehenderit."
-        },
-        {
-            "id": "5d20e56ab0e8951bcd0cb7ce",
-            "title": "labore amet dolore duis labore",
-            "poster": "http://placehold.it/32x32",
-            "year": 1958,
-            "rating": 4,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Terra Garrett"
-                },
-                {
-                    "id": 1,
-                    "name": "Dudley Massey"
-                },
-                {
-                    "id": 2,
-                    "name": "Kitty Malone"
-                }
-            ],
-            "description": "Magna id ad quis cupidatat culpa. Lorem deserunt ad adipisicing sint ea eu voluptate sit ea sit amet magna voluptate cupidatat. Cupidatat dolore excepteur cupidatat labore irure cupidatat exercitation adipisicing reprehenderit aute minim nulla. Id est non aute culpa."
-        },
-        {
-            "id": "5d20e56abc6479b0cf1a0c9a",
-            "title": "commodo in ad reprehe",
-            "poster": "http://placehold.it/32x32",
-            "year": 1982,
-            "rating": 2,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Nettie Robles"
-                },
-                {
-                    "id": 1,
-                    "name": "Marisa Sloan"
-                },
-                {
-                    "id": 2,
-                    "name": "Cynthia Curry"
-                }
-            ],
-            "description": "Sit adipisicing ex adipisicing culpa occaecat velit. Aute cillum eu sit elit Lorem dolor dolore irure ea cupidatat consequat anim est. Exercitation do amet elit est duis velit ut quis irure."
-        },
-        {
-            "id": "5d20e56a2f5175373be80251",
-            "title": "est officia irure mollit non",
-            "poster": "http://placehold.it/32x32",
-            "year": 2007,
-            "rating": 4,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Gay Hammond"
-                },
-                {
-                    "id": 1,
-                    "name": "Howard Snider"
-                },
-                {
-                    "id": 2,
-                    "name": "Lesley Simpson"
-                }
-            ],
-            "description": "Eu est ullamco labore dolore pariatur aliqua voluptate duis Lorem cupidatat non adipisicing. Consectetur eiusmod in occaecat excepteur eiusmod cillum in anim deserunt. Ullamco Lorem minim minim sunt aute dolor eiusmod minim laboris duis duis nisi nostrud eu."
-        },
-        {
-            "id": "5d20e56a5939027e5bdcf31d",
-            "title": "nisi nisi consectet",
-            "poster": "http://placehold.it/32x32",
-            "year": 2013,
-            "rating": 8,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Gardner Fuller"
-                },
-                {
-                    "id": 1,
-                    "name": "Cooke Butler"
-                },
-                {
-                    "id": 2,
-                    "name": "Little Marquez"
-                }
-            ],
-            "description": "Anim sint ad consequat Lorem ullamco. Adipisicing nostrud consequat cupidatat non excepteur anim. Elit nulla qui dolore mollit duis ipsum fugiat elit laborum velit Lorem non. Laborum tempor sint amet tempor excepteur. Reprehenderit ipsum proident officia sit ea sit elit et consequat. Sit ullamco excepteur veniam aliqua veniam sunt ea commodo in non id. Nulla pariatur est sint veniam consectetur sint Lorem adipisicing."
-        },
-        {
-            "id": "5d20e56a198f5864f49989b8",
-            "title": "in sint eu veniam mollit",
-            "poster": "http://placehold.it/32x32",
-            "year": 2002,
-            "rating": 6,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Lidia Hughes"
-                },
-                {
-                    "id": 1,
-                    "name": "Carson Yang"
-                },
-                {
-                    "id": 2,
-                    "name": "Rosalie Sandoval"
-                }
-            ],
-            "description": "Voluptate et adipisicing excepteur anim deserunt occaecat fugiat adipisicing exercitation velit non. Nostrud ex in commodo mollit tempor nisi Lorem excepteur eiusmod tempor aute deserunt laborum cupidatat. Veniam elit do veniam labore culpa tempor eu dolor dolore enim. Labore qui ipsum qui cillum. Quis tempor irure ea officia nulla consectetur aliquip deserunt. Minim sunt dolore voluptate sunt commodo incididunt. Nisi velit voluptate officia aliquip aliqua nisi excepteur cupidatat voluptate velit pariatur aliqua commodo tempor."
-        },
-        {
-            "id": "5d20e56a4c8583c4bc82c8ff",
-            "title": "nisi nostrud et veniam voluptate",
-            "poster": "http://placehold.it/32x32",
-            "year": 1941,
-            "rating": 4,
-            "cast": [
-                {
-                    "id": 0,
-                    "name": "Neal House"
-                },
-                {
-                    "id": 1,
-                    "name": "Golden Mclaughlin"
-                },
-                {
-                    "id": 2,
-                    "name": "Pearson Duffy"
-                }
-            ],
-            "description": "Aliquip dolor quis deserunt sint ex. Ipsum dolor cillum anim mollit dolor laborum Lorem nulla et amet enim deserunt pariatur in. Quis irure incididunt cillum ea amet ex Lorem do amet. Pariatur ullamco sit aute cillum qui elit. In proident eu ullamco officia eu nulla."
+            },
+            "startDate": 1594329960,
+            "endDate": 32472151200,
+            "createDate": 1594553906,
+            "updateDate": 1594983888,
+            "externalId": "MK_AD_28052020_MM",
+            "entryId": "",
+            "status": true,
+            "struct": {
+                "id": 1109,
+                "name": "Movie",
+                "systemName": "Movie",
+                "metaIds": "4077,4084,4085,4086,4087,4088,4076,4083,4082,4095,4096,4269,4275,5906,4258,5907,4259,4263,5909,5910,5908,4436,4426,4425,5915,5916,4268,5917,5918,4427,5919,5920,5921,5922,5923,6128,6129,6130,6131,6132,6133,4094"
+            },
+            "objectType": "KalturaMediaAsset"
         }
     ]
 }
