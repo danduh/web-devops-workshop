@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { GalleryService } from '../gallery.service';
 import { Movie, Movies } from '../../interfaces';
+import { tap } from 'rxjs/operators';
 
 @Component({
     selector: 'art-catalogue-gallery-list',
@@ -16,7 +17,8 @@ export class GalleryListComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.movies = this.galService.getAllMovies();
+        this.movies = this.galService.getAllMovies()
+            .pipe(tap(console.table));
     }
 
 }

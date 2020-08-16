@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, of, throwError } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { environment } from '@art-catalogue/env/environment';
 import { Movie, Movies } from '../interfaces';
@@ -19,28 +19,30 @@ export class GalleryService {
     getAllMovies(): Observable<Movie[]> {
         return this.http.get(`${this.apiUrl}/movies`)
             .pipe(
-                // map(this.validate),
+                map(this.filterValid),
                 map(r => r as Movie[])
             );
     }
 
 
-    validate(resp: any): Movies {
+    filterValid(resp: any): Movies {
         const onLeft = (errors: t.Errors) => {
-            console.log(errors[0].context)
+            console.log(errors[0].context);
             console.error(PathReporter.report(left(errors)).join('\n'));
             return false;
         };
 
         const onRight = (data) => {
-            return true;
+            return data;
         };
 
-        return resp.filter((movie: Movie) => {
-            return pipe(
+        return resp.flatMap((movie: Movie) => {
+            const value = pipe(
                 Movie.decode(movie),
-                fold(onLeft, () => true)
+                fold(onLeft, onRight)
             );
+            return value ? value : [];
         });
+
     }
 }

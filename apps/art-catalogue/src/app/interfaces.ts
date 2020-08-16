@@ -1,4 +1,5 @@
 import * as t from 'io-ts';
+import { option } from 'fp-ts';
 
 /***
  * TAGS Handler
@@ -30,21 +31,19 @@ const Tags = t.exact(
 /***
  * Images Handling
  */
-const Image = t.exact(t.type({
+const Image = t.type({
     id: t.number,
     url: t.string
-}));
+});
 
 
-const Movie = t.exact(t.type({
+const Movie = t.type({
     id: t.number,
-    images: t.array(Image), // <--
+    images: t.array(Image), // <-- Array of Images
     name: t.string,
     tags: Tags,
-    // year: t.number,
-    // cast: t.array(Actor),
     description: t.string
-}));
+});
 
 type Movie = t.TypeOf<typeof Movie>;
 export { Movie };
