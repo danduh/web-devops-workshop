@@ -18,7 +18,7 @@
             ],
             "id": 2107519,
             "type": 1109,
-
+            "name": null,
             "description": "MK Ad-Insertion Tests,A collection of twentysomethings try to cope with relationships, loneliness, desire and their individual neuroses.",
             "metas": {
                 "Year": {
@@ -224,20 +224,6 @@
                             "relatedObjects": [],
                             "multilingualValue": [],
                             "value": "16"
-                        }
-                    ]
-                },
-                "Actors": {
-                    "_allowedEmptyArray": [],
-                    "_dependentProperties": {},
-                    "relatedObjects": [],
-                    "objects": [
-                        {
-                            "_allowedEmptyArray": [],
-                            "_dependentProperties": {},
-                            "relatedObjects": [],
-                            "multilingualValue": [],
-                            "value": "Will Smith"
                         }
                     ]
                 },
